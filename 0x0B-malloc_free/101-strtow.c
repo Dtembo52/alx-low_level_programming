@@ -39,7 +39,7 @@ int num_words(char *str)
 		else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 		{
 			words += 1;
-			i++
+			i++;
 		}
 		else
 		{
@@ -88,7 +88,7 @@ char **strtow(char *str)
 				{
 					while (j-- >= 0)
 						free(split[j]);
-					free(slpit);
+					free(split);
 					return (NULL);
 				}
 			}
