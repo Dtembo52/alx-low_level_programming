@@ -21,9 +21,10 @@ int len(char *str)
  * argstostr - concatetantes all the args of the program
  * @ac: counts the args passed to the function
  * @av: array of arguments
- * 
+ *
  * Return: pointers to the new string
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *new_string = NULL;
